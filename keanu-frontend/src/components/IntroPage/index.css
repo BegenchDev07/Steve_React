@@ -1,0 +1,84 @@
+#container {
+    height: 300px;
+    overflow-y: scroll;
+    scroll-timeline: --squareTimeline y;
+    /* Firefox supports the older "vertical" syntax */
+    scroll-timeline: --squareTimeline vertical;
+    position: relative;
+  }
+
+/*#stage-1z{*/
+/*  --deltaY:0px;*/
+/*   translateY(var(--deltaY));*/
+/*}*/
+
+  #square {
+    background-color: deeppink;
+    width: 100px;
+    height: 100px;
+    animation-name: rotateAnimation;
+    animation-duration: 1ms; /* Firefox requires this to apply the animation */
+    animation-timeline: scroll();
+    position: absolute;
+  }
+  
+  #stretcher {
+    height: 600vh;
+    background: green;
+  }
+  
+  @keyframes rotateAnimation {
+    from {
+      transform:rotate(0deg) ;
+    }
+  
+    to {
+      transform: rotate(360deg) ;
+    }
+  }
+
+
+
+#square1 {
+  background-color: deeppink;
+  width: 100px;
+  height: 100px;
+  animation-name: rotateAnimation1;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  animation-timeline: scroll();
+  position: absolute;
+  left: 10vw;
+  top: 10vh;
+}
+
+
+@keyframes rotateAnimation1 {
+  from {
+    transform: translateY(0vh) ;
+  }
+
+  to {
+    transform: translateY(100vh) ;
+  }
+}
+
+#square2 {
+  background-color: deeppink;
+  width: 100px;
+  height: 100px;
+  animation-name: rotateAnimation;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  animation-timeline: scroll();
+  position: absolute;
+}
+
+
+@keyframes rotateAnimation {
+  from {
+    transform: translateY(0vh) ;
+  }
+
+  to {
+    transform: translateY(-100vh) ;
+  }
+}

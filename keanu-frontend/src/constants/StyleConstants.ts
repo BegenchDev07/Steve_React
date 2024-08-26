@@ -1,0 +1,11 @@
+
+export const ZINDEX_MDEDITOR_LINK_EDITOR = 100;
+export const ZINDEX_MDEDITOR_DROPDOWN = 5;
+export const ZINDEX_MDEDITOR_SELECT = 1;
+export const ZINDEX_MDEDITOR_MODAL_OVERLAY = 100;
+
+export const ZINDEX_APP_SIDENAV = 100;
+
+export const ZINDEX_APP_MODAL = 50;
+
+

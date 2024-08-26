@@ -1,0 +1,61 @@
+/* .container {
+  display: flex;
+  height: 100vh;  
+} */
+
+.sidebar {
+  width: 300px;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid grey;
+  padding: 0;
+}
+
+.contact {
+  background-color: #fff;
+  border: 1px solid grey;
+  padding: 16px;
+  margin: 0;
+}
+
+.main-area {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: calc(14 * 50px); /* Adjust this based on your contact box height */
+}
+
+.main-content {
+  background-color: #fff;
+  padding: 20px;
+  height: calc(14 * 50px - 100px); /* Subtract the height of the message section */
+}
+
+.message-section {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  height: 100px; /* Fixed height for the message section */
+}
+
+.message-input {
+  flex-grow: 1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.send-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

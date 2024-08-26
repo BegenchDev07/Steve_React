@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 748.15 390.11">
+    <defs>
+        <style>
+            .cls-1{fill:#557535;}.cls-2{fill:#81a33e;}.cls-3,.cls-7{fill:#fff;}.cls-3{stroke:#666;stroke-miterlimit:10;strokeWidth:0.5px;}.cls-4{fill:#cadc46;}.cls-5{fill:#56622b;}.cls-6{fill:#1a1a1a;}.cls-8{fill:#87241b;}.cls-9{fill:#e05826;}.cls-10{fill:#0f335a;}.cls-11{fill:#4a8fcc;}.cls-12{fill:#236032;}.cls-13{fill:#308942;}.cls-14{fill:#614a9e;}.cls-15{fill:#7762aa;}
+        </style>
+    </defs>
+
+    <g id="layer3" data-name="图层 5">
+        <path class="cls-8"
+              d="M865.54,84.73c-4.24-7.88-15.11-13.48-27.87-13.48s-23.62,5.6-27.86,13.48h-1.9v7.32c0,11.49,13.33,20.81,29.76,20.81s29.75-9.31,29.77-20.79h0V84.73Z"
+              transform="translate(-323.71 -21.45)"/>
+        <ellipse class="cls-9" cx="513.96" cy="63.56" rx="29.76" ry="20.8"/>
+        <path class="cls-10"
+              d="M867.9,138.53c-4.24-7.88-15.12-13.48-27.87-13.48s-23.62,5.6-27.86,13.48h-1.9v7.32c0,11.49,13.32,20.81,29.76,20.81s29.75-9.31,29.77-20.79h0v-7.34Z"
+              transform="translate(-323.71 -21.45)"/>
+        <ellipse class="cls-11" cx="516.32" cy="117.36" rx="29.76" ry="20.8"/>
+        <path class="cls-12"
+              d="M957.38,136.74c-4.24-7.88-15.11-13.49-27.86-13.49s-23.63,5.61-27.87,13.49h-1.89V144s0,.07,0,.1c0,11.49,13.33,20.8,29.77,20.8s29.75-9.3,29.76-20.79h0v-7.33Z"
+              transform="translate(-323.71 -21.45)"/>
+        <ellipse class="cls-13" cx="605.81" cy="115.56" rx="29.76" ry="20.8"/>
+        <path class="cls-14"
+              d="M953.56,78c-4.24-7.88-15.12-13.48-27.87-13.48S902.07,70.16,897.83,78h-1.9v7.32c0,11.49,13.32,20.81,29.76,20.81s29.75-9.31,29.77-20.79h0V78Z"
+              transform="translate(-323.71 -21.45)"/>
+        <ellipse class="cls-15" cx="601.98" cy="56.87" rx="29.76" ry="20.8"/>
+    </g>
+</svg>

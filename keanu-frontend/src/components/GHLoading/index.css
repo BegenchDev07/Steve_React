@@ -1,0 +1,8 @@
+:root {
+    --mason-bin-width:0;
+}
+
+. {
+    background-color: var( --mason-bin-width);
+}
+

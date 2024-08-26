@@ -1,0 +1,17 @@
+services:
+  frontend:
+    container_name: frontend-container
+    image: node:20
+    working_dir: /app
+    volumes:
+      - ./:/app
+    # if you want to keep the container running and debug, you can use the following command
+    # docker exec -it fronttend-container bash
+    #command: tail -f /dev/null
+    command: ["sh", "-c", "if [ ! -d 'node_modules' ]; then yarn && yarn dev; fi && yarn dev"]
+    ports:
+      - "3001:3001"
+    environment:
+      - NODE_ENV=development
+    restart: unless-stopped
+    tty: true

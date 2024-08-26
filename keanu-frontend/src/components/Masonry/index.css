@@ -1,0 +1,15 @@
+.intro{    
+    height: 100vh;
+    width: 100vw;    
+    animation: scrollDownAnimate ease-in forwards;
+    animation-timeline: scroll();
+}
+
+@keyframes scrollDownAnimate {
+    0%{
+        opacity: 1;
+    }
+    10%{
+        opacity: 0;
+    }
+}

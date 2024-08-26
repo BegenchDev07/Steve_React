@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 748.15 390.11">
+    <defs>
+        <style>
+            .cls-1{fill:#557535;}.cls-2{fill:#81a33e;}.cls-3,.cls-7{fill:#fff;}.cls-3{stroke:#666;stroke-miterlimit:10;strokeWidth:0.5px;}.cls-4{fill:#cadc46;}.cls-5{fill:#56622b;}.cls-6{fill:#1a1a1a;}.cls-8{fill:#87241b;}.cls-9{fill:#e05826;}.cls-10{fill:#0f335a;}.cls-11{fill:#4a8fcc;}.cls-12{fill:#236032;}.cls-13{fill:#308942;}.cls-14{fill:#614a9e;}.cls-15{fill:#7762aa;}
+        </style>
+    </defs>
+    <g id="layer1" data-name="图层 3">
+        <polygon class="cls-1" points="561.45 382.98 748.15 289.63 748.15 101.57 561.45 194.94 561.45 382.98"/>
+        <polygon class="cls-2" points="561.45 194.94 186.7 7.53 186.7 195.42 561.45 382.94 561.45 194.94"/>
+        <path class="cls-3" d="M1064.78,136" transform="translate(-323.71 -21.45)"/>
+        <polygon class="cls-1" points="0 288.77 186.7 195.42 186.7 7.36 0 100.73 0 288.77"/>
+        <polygon class="cls-4" points="560.46 0 373.19 93.7 561.45 186.94 746.58 94.26 560.46 0"/>
+        <polygon class="cls-5" points="186.7 203.42 1.11 296.22 189.09 390.11 374.13 297.21 186.7 203.42"/>
+    </g>
+
+</svg>

@@ -1,0 +1,40 @@
+[
+    {
+        "conversation_partner": "Alice",
+        "update_time": "12/1",
+        "type": "private_msg",
+        "content": "123"
+    },
+    {
+        "conversation_partner": "Alice",
+        "update_time": "12/1",
+        "type": "private_msg",
+        "content": "234"
+    },
+    {
+        "conversation_partner": "Alice",
+        "update_time": "12/1",
+        "type": "private_msg",
+        "content": "456"
+    },
+    {
+        "conversation_partner": "Bob",
+        "update_time": "12/2",
+        "type": "private_msg"
+    },
+    {
+        "conversation_partner": "Cristina",
+        "update_time": "12/3",
+        "type": "private_msg"
+    },
+    {
+        "conversation_partner": "David",
+        "update_time": "12/4",
+        "type": "private_msg"
+    },
+    {
+        "conversation_partner": "system",
+        "update_time": "12/5",
+        "type": "new_comment"
+    }
+]
